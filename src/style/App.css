@@ -1,0 +1,31 @@
+.App {
+    height: 250%;
+    padding: 0 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .App > * {
+    margin: 3px 0;
+  }
+  
+  .header {
+    text-align: center;
+  }
+  
+  .header p {
+    margin: 5px 0;
+  }
+  
+  .code {
+    padding: 5px;
+    color: greenyellow;
+    background-color: black;
+    border-radius: 5px;
+  }
+  
+  
+  

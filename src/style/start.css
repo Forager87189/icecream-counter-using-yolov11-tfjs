@@ -1,0 +1,48 @@
+/* 모든 요소에 box-sizing을 border-box로 설정하여 padding과 border를 요소의 전체 너비와 높이에 포함 */
+* {
+    box-sizing: border-box;
+}
+
+/* .btn 클래스의 스타일 정의: 인라인 블록 디스플레이, 글자 색상을 흰색, 글자를 굵게, padding을 12px 20px, 테두리 반경을 8px로 설정하여 모서리를 둥글게, 배경색을 파란색 (#004fff)으로 설정, 텍스트 왼쪽 정렬 */
+.btn {
+    display: inline-block;
+    position: absolute;
+    color: #fff;
+    font-size: 55px; /* 글씨 크기를 더 작게 조정 */
+    font-weight: 300; /* 글씨 두께를 더 얇게 조정 */
+    padding: 20px 100px;
+    border-radius: 35px;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ff0000;
+}
+
+/* .text-wrap 클래스의 스타일 정의: 너비를 100%로 설정하고, 높이를 뷰포트 높이만큼 설정, padding을 상하 240px, 좌우 20px, 상대 위치 지정, 좌측 상단에 배치, z-index를 1로 설정, 텍스트 가운데 정렬 */
+.text-wrap {
+    width: 100%;
+    height: 100vh;
+    padding: 180px 20px;
+    position: relative;
+    left: 0;
+    top: 0;
+    text-align: center;
+    font-family: "Black Han Sans", sans-serif;
+    font-weight: 300; /* 글씨 두께를 더 얇게 조정 */
+    font-size: 150px; /* 글씨 크기를 더 크게 조정 */
+    z-index: 1;
+}
+
+/* .text-wrap 내의 h2 요소 스타일 정의: 글자 색상을 흰색으로 설정, 폰트 크기를 64px, 줄 간격을 1.25, 글자 굵기를 가볍게, 아래쪽 margin을 40px 추가 */
+.text-wrap h2 {
+    color: #000;
+    position: relative;
+    font-size: 36px;
+    line-height: 1.25;
+    font-weight: lighter;
+    font-weight: bold;
+    font-family: "Black Han Sans", sans-serif;
+    font-weight: 300; /* 글씨 두께를 더 얇게 조정 */
+    font-size: 40px; /* 글씨 크기를 더 크게 조정 */
+    margin-bottom: 40px;
+}
